@@ -57,7 +57,7 @@ pub trait Stream<'a> {
     type Item;
     /// Returns token at `x`. It's possible to cache values. FnStream for example caches all tokens returned from getter.
     fn token(&mut self,x: usize) -> StreamResult<Self::Item>;
-    /// Basucally same as truncating vector.
+    /// Basically same as truncating vector.
     fn junk(&mut self,x: usize);
     /// Return stream position, does not used by macro or streams-rs, but might be usefull for someone.
     fn pos(&self) -> usize;
