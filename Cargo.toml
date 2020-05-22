@@ -3,7 +3,10 @@ name = "streams-rs"
 version = "0.1.0"
 authors = ["playX <adel.prokurov@protonmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "OCaml like streams for Russt"
+repository = "https://github.com/playXE/streams-rs"
+readme = "README.md"
+keywords = ["streams","ocaml","functional"]
+license = "MIT"
 
 [dependencies]
